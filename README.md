@@ -21,7 +21,6 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  ### Görev 1
  * main metodunuz ```com.workintech.zoo``` paketi altında olmalıdır
  * ```com.workintech.zoo``` paketi altında ```controller```, ```entity```, ```exceptions``` isminde 3 adet daha paket oluşturunuz.
- * İçerisinde ````getTaxRate```` isimli bir adet metod tanımlayınız.
  * Project Lombok'u dependency olarak uygulamanıza ekleyin.
  * ```entity``` paketinin altına ```Koala``` ve ```Kangaroo``` isimli iki tane sınıf oluşturunuz.
  * ```Koala``` sınıfı ```id, name, weight, sleepHour, gender``` isimli 5 fielda sahip olmalı.
