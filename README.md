@@ -46,5 +46,5 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  ### Görev 3
  * Her endpointin hata fırlatabileceği senaryolar düşünülmeli ```exceptions``` paketi altına bu Error sınıfları oluşturulmalı.
  * Error Handling Global bir merkezden yönetilmeli. Controller sınıflarının altında olmamalı.
- * Her Controller ```@Slf4j``` ile işaretlenmelidir. Endpoint bir şekilde hata döndüğünde ```error logu``` basılmalı.
+ * ```@Slf4j``` bir şekilde hata dönüldüğünde ```error logu``` basılmalı.
  
