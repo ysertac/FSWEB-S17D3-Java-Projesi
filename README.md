@@ -29,14 +29,14 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
  ### Görev 2
  * ```KangarooController``` ve ```KoalaController``` isimli 2 tane controller yazmalısınız.
- * ```KangarooController``` içirisinde kangaroo objelerini tutacak bir adet ```kangaroos``` isminde List tutmalısınız. Controller bean ilk oluştuğunda bu list tanımlanmalı.
+ * ```KangarooController``` içirisinde kangaroo objelerini tutacak bir adet ```kangaroos``` isminde map tutmalısınız. Controller bean ilk oluştuğunda bu map tanımlanmalı.
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak. 
  * [GET]/workintech/kangaroos => tüm kangaroo listini dönmeli.
  * [GET]/workintech/kangaroos/{id} => İlgili id deki kangaroo objesini dönmeli.
  * [POST]/workintech/kangaroos => Bir adet kangaroo objesini kangaroos listesine ekler
  * [PUT]/workintech/kangaroos/{id} => İlgili id deki kangaroo objesinin değerlerini yeni gelen data ile değiştirir.
  * [DELETE]/workintech/developers/{id} => İlgili id değerindeki kangaroo objesini listeden siler.
- * ```KoalaController``` içirisinde koala objelerini tutacak bir adet ```koalas``` isminde List tutmalısınız. Controller bean ilk oluştuğunda bu list tanımlanmalı.
+ * ```KoalaController``` içirisinde koala objelerini tutacak bir adet ```koalas``` isminde Map tutmalısınız. Controller bean ilk oluştuğunda bu map tanımlanmalı.
  * [GET]/workintech/koalas => tüm koala listini dönmeli.
  * [GET]/workintech/koalas/{id} => İlgili id deki koala objesini dönmeli.
  * [POST]/workintech/koalas => Bir adet koala objesini koala listesine ekler
